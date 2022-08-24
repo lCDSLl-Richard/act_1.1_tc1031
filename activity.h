@@ -15,6 +15,8 @@
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
 // @Complexity	O(n)
+// La complejidad del algoritmo es O(n) porque el algoritmo itera
+// n veces con un decremento lineal.
 // =================================================================
 unsigned int sumaIterativa(unsigned int n)
 {
@@ -33,6 +35,9 @@ unsigned int sumaIterativa(unsigned int n)
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
 // @Complexity	O(n)
+// La complejidad del algoritmo es O(n), porque el algoritmo solo se
+// llama una vez y este se reduce de manera lineal en la siguiente
+// llamada.
 // =================================================================
 unsigned int sumaRecursiva(unsigned int n)
 {
@@ -46,6 +51,9 @@ unsigned int sumaRecursiva(unsigned int n)
 // @param n	The maximum limit of the sum.
 // @return	The result of the addition from 1 to n.
 // @Complexity	O(1)
+// La complejidad de este algoritmo es de O(1) ya que solo hace
+// una llamada a operaciones matemáticas, independientes del tamaño
+// de la entrada.
 // =================================================================
 unsigned int sumaDirecta(unsigned int n)
 {
